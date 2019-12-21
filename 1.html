@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Soal nomer 1 Bootcamp</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            .form-control {
+                margin: 20px 16px;
+            }
+            .sub_group {
+                margin: 20px 0px;
+            }
+            .sub_color1 {
+                background: rgba(184, 197, 214, 0.671);
+            }
+            .sub_color2 {
+                background: rgba(152, 216, 152, 0.658);
+            }
+            .sub_color3 {
+                background: rgba(155, 192, 155, 0.678);
+            }
+            .sub_color4 {
+                background: rgba(182, 158, 114, 0.76);
+            }
+            .button_sum {
+                padding: 5px;
+                color: white;
+                background: blue;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form-control" method="post" action="#">
+            <div class="sub_group">
+                <label >Username :</label><br/>
+                <input class="from-text" type="text" value=""/>
+            </div>
+            <div class="sub_group" >
+                <label >Tempat lahir :</label><br/>
+                <input class="from-text" type="text" value=""/>
+            </div>
+            <div class="sub_group">
+                <label >Tanggal lahir :</label><br/>
+                <input class="from-text" type="text" value=""/>
+            </div>
+            <div class="sub_group">
+                <label >No.HP :</label><br/>
+                <input class="from-text" type="text" value=""/>
+            </div>
+            <div>
+                <label >Alamat :</label><br/>
+                <textarea name="alamat" rows="3" cols="20">
+
+                </textarea>
+            </div>
+            <div class="sub_group">
+                <label >Pendidikan Terakhir :</label><br/>
+                <input class="from-text" type="text" value=""/>
+            </div>
+            <div class="sub_group">
+                <label >Agama :</label><br/>
+                <input type="radio" name="agama" value="Islam"/><span class="sub_color1"> Islam</span><br/>
+                <input type="radio" name="agama" value="Kristen"/><span class="sub_color2"> Kristen</span><br/>
+                <input type="radio" name="agama" value="Katolik"/><span class="sub_color2"> Katolik</span><br/>
+            </div>
+            <div class="sub_group">
+                <label >Hobi :</label><br/>
+                <input type="checkbox" name="hobi" value="Renang"/><span class="sub_color1"> Renang</span><br/>
+                <input type="checkbox" name="hobi" value="Mancing"/><span class="sub_color2"> Mancing</span><br/>
+                <input type="checkbox" name="hobi" value="Game"/><span class="sub_color2"> Game</span><br/>
+                <input type="checkbox" name="hobi" value="Gibah"/><span class="sub_color3"> Gibah</span><br/>
+                <input type="checkbox" name="hobi" value="Programing"/><span class="sub_color4"> Programing</span><br/>
+            </div>
+            
+            <input class="button_sum" type="submit" name="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
