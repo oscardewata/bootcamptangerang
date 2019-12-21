@@ -1,5 +1,5 @@
 # bootcamptangerang
-Jawaban tes gelombang 1
+Jawaban tes dumbways gelombang 1
 
 1. Software editor saya menggunakan visual studio code
 2. Software yang digunakan untuk database adlah xampp (mysql)
